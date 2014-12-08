@@ -579,15 +579,14 @@ Alternatief
 
 Referenties
 ===========
-* http://en.wikipedia.org/wiki/Just-in-time_compilation
-* http://en.wikipedia.org/wiki/Register_allocation
-* http://cs.au.dk/~eernst/dOvsE13/materials/50b-kevin.pdf
-* http://en.wikipedia.org/wiki/Static_single_assignment_form
 
+::
 
-Referenties
-===========
-* http://www.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf
-* http://www.eecs.harvard.edu/hube/publications/pldi98-binpack.pdf
-* ftp://ftp.ssw.uni-linz.ac.at/pub/Papers/Moe02.PDF
-* http://llvm.org/pubs/2006-04-04-CGO-GraphColoring.pdf
+ http://en.wikipedia.org/wiki/Just-in-time_compilation
+ http://en.wikipedia.org/wiki/Register_allocation
+ http://cs.au.dk/~eernst/dOvsE13/materials/50b-kevin.pdf
+ http://en.wikipedia.org/wiki/Static_single_assignment_form
+ http://www.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf
+ http://www.eecs.harvard.edu/hube/publications/pldi98-binpack.pdf
+ ftp://ftp.ssw.uni-linz.ac.at/pub/Papers/Moe02.PDF
+ http://llvm.org/pubs/2006-04-04-CGO-GraphColoring.pdf
