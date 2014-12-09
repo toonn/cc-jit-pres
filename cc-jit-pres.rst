@@ -406,11 +406,6 @@ Voorbeeld *k* = 3
 
 Voorbeeld *k* = 3
 =================
-.. image:: image/sb8.png
-
-
-Voorbeeld *k* = 3
-=================
 .. image:: image/sb9.png
 
 
@@ -455,14 +450,8 @@ Voorbeeld
 =========
 .. image:: image/sb14.png
 
-* A → C
-
-  * Groen naar blauw
-  * Blauw naar Groen
-
-* B → C
-
-  * Eerste spill naar blauw
+* A → C: groen naar blauw en blauw naar Groen
+* B → C: eerste spill naar blauw
 
 
 Linear Scan en SSA Form
@@ -491,7 +480,7 @@ Static single assignment form
 
 Liveness analyse
 ================
-* Verzamelingen van intervallen i.p.v. één live intervall voor de lifetime holes
+* Verzamelingen van intervallen i.p.v. één live interval, voor de lifetime holes
 
 
 Coalesce temporaries
@@ -511,7 +500,7 @@ Inactieve intervallen
 Expiring old intervals
 ======================
 * Als het interval voorbij is, is het expired
-* Als het interval een lifetime hole bereikt wordt het naar de inactieve
+* Als het interval een lifetime hole bereikt, wordt het naar de inactieve
   intervallen verplaatst
 
 Heractiveren van inactieve intervallen
@@ -580,11 +569,13 @@ Alternatief
 Referenties
 ===========
 
-* http://en.wikipedia.org/wiki/Just-in-time_compilation
-* http://en.wikipedia.org/wiki/Register_allocation
-* http://cs.au.dk/~eernst/dOvsE13/materials/50b-kevin.pdf
-* http://en.wikipedia.org/wiki/Static_single_assignment_form
-* http://www.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf
-* http://www.eecs.harvard.edu/hube/publications/pldi98-binpack.pdf
-* ftp://ftp.ssw.uni-linz.ac.at/pub/Papers/Moe02.PDF
-* http://llvm.org/pubs/2006-04-04-CGO-GraphColoring.pdf
+::
+
+ http://en.wikipedia.org/wiki/Just-in-time_compilation
+ http://en.wikipedia.org/wiki/Register_allocation
+ http://cs.au.dk/~eernst/dOvsE13/materials/50b-kevin.pdf
+ http://en.wikipedia.org/wiki/Static_single_assignment_form
+ http://www.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf
+ http://www.eecs.harvard.edu/hube/publications/pldi98-binpack.pdf
+ ftp://ftp.ssw.uni-linz.ac.at/pub/Papers/Moe02.PDF
+ http://llvm.org/pubs/2006-04-04-CGO-GraphColoring.pdf
