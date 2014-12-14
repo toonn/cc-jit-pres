@@ -81,7 +81,7 @@ Linear Scan
 Algoritme
 ---------
 * Sorteer de live intervallen op beginwaarde
-* Aantal benodigde registers veranderd alleen wanneer een live interval
+* Aantal benodigde registers verandert alleen wanneer een live interval
   begint of eindigt
 * Gebruik een *greedy strategie* om registers toe te wijzen
 
@@ -336,7 +336,7 @@ Voorbeeld *k* = 3
 
 Prestaties
 ==========
-* Veel sneller dan grafenkleuring (lineair)
+* Veel sneller dan grafenkleuring
 * 12% tragere code dan grafenkleuring
 
 
@@ -551,7 +551,7 @@ Linear Scan Conclusie
 =====================
 * State of the art voor JIT compilers
 * In de eenvoudigste vorm heel makkelijk te implementeren
-* Prestatie benaderd grafenkleuring (12%)
+* Prestatie benadert grafenkleuring (12%)
 
 
 Alternatief
@@ -563,7 +563,7 @@ Alternatief
   (hierdoor wordt deze minder nauwkeurig)
 * Dit heeft als gevolg dat de allocatie minder optimaal is maar veel sneller
   kan gebeuren
-* Performantie in een JIT 9% beter dan Chaitin-Briggs, 7% beter dan linear scan
+* (Performantie in een JIT 9% beter dan Chaitin-Briggs, 7% beter dan linear scan)
 
 
 Referenties
